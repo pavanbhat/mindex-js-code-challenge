@@ -1,0 +1,5 @@
+<mat-grid-list class="direct-employee-list" rowHeight="500" cols='{{directReports.length}}'>
+  <mat-grid-tile *ngFor="let emp of directReports">
+    <app-employee [employee]="emp"></app-employee>
+  </mat-grid-tile>
+</mat-grid-list>

@@ -1,0 +1,11 @@
+app-body {
+  position: relative;
+  flex: 1 1 auto;
+  top: 7em;
+}
+
+html {
+  background-color: darkgray;
+  align-content: center;
+  height: 100vh;
+}

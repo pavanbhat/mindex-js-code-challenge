@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "rock";
+  src: url("../../../assets/fonts/NewRocker-Regular.ttf") format("truetype");
+}
+.spacer {
+  flex: 1 1 auto;
+}
+
+.footer {
+  font-size: small;
+  position: fixed;
+  height: 5em;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+h4 {
+  font-family: rock;
+}

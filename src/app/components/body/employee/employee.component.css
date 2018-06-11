@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "rock";
+  src: url("../../../../assets/fonts/NewRocker-Regular.ttf") format("truetype");
+}
+
+.employee-card {
+  max-width: 100%;
+  display:block;
+  height: auto;
+  align-content: center;
+  margin: 1em;
+}
+
+.employee-header-image {
+  /*border-radius: 10px;*/
+  /*background-image: url('../../../../assets/images/1.jpg');*/
+  background-size: cover;
+}
+
+.mat-card-image {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+dt{
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: rock;
+}
+
+dd{
+  text-align: left;
+  text-indent: hanging;
+  font-family: rock;
+
+}
+
+.spacer {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  display:block;
+  height: auto;
+}
+
+
+.my-centered-dialog {
+  max-width: 80vw;
+}
+
+.mat-dialog-container {
+  max-width: none;
+}
+
+.mat-raised-button {
+  color: black;
+  background-color: cornflowerblue;
+  font-family: rock;
+}
+.mat-card-title, .mat-card-subtitle {
+  font-family: rock;
+  font-size: xx-large;
+}
